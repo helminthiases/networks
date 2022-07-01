@@ -1,9 +1,32 @@
 <br>
 
-Mapping geographic coordinates
+* [Development Notes](#development-notes)
+
+* [Network Engines](#network-engines)
+  * [NetworkX](#networkx)
+  * [Apache Spark GraphFrames/GraphX](#apache-spark-graphframesgraphx)
 
 <br>
 
+The soil transmitted helminth project relies on the ESPEN data sets.  A key set of ESPEN data sets issues, raised within the 
+project scope, is in relation to site identification codes, i.e.,
+
+* Survey sites that have the same co&ouml;rdinate values have different site identification codes.
+
+* Survey sites whose longitude or latitude values differ by fractions of a point, e.g.,<br>
+  > Point A: (*longitude* 33.87212, *latitude* -2.031722)
+  > 
+  > Point B: (*longitude* 33.872115, *latitude* -2.0317217)
+
+
+&nbsp; &nbsp; &nbsp; &nbsp; can have different site identification codes.
+
+* Many observations do not have a site identification code.
+
+The aim herein is to explore methods for determining which co&ouml;rdinate points are more or less equivalent, and 
+subsequently generate identification codes.
+
+<br>
 
 ### Development Notes
 
