@@ -5,6 +5,16 @@ Mapping geographic coordinates
 <br>
 
 
+### Development Notes
+
+````shell
+pip freeze -r docs/filter.txt > requirements.txt
+````
+
+
+<br>
+<br>
+
 ### Network Engines
 
 In the end, ``NetworkX`` is the most feasible because (a) it has fewer dependencies compared to GraphFrames, (b) it 
