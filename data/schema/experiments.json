@@ -1,0 +1,321 @@
+{
+  "type": "struct",
+  "fields": [
+    {
+      "name": "iso3",
+      "type": "string",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "ISO 3166-1 alpha-3 Code"
+      }
+    },
+    {
+      "name": "iso2",
+      "type": "string",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "ISO 3166-1 alpha-2 Code"
+      }
+    },
+    {
+      "name": "admin1_id",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Country administration level 1 identification code."
+      }
+    },
+    {
+      "name": "admin2_id",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Country administration level 2 identification code."
+      }
+    },
+    {
+      "name": "iu_id",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Implementation unit identification code."
+      }
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Site location name."
+      }
+    },
+    {
+      "name": "site_id",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Site identification code."
+      }
+    },
+    {
+      "name": "longitude",
+      "type": "double",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The longitude coordinate of the site."
+      }
+    },
+    {
+      "name": "latitude",
+      "type": "double",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The latitude coordinate of the site."
+      }
+    },
+    {
+      "name": "georeliability",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The reliability of the geographic data.  The best value is 1."
+      }
+    },
+    {
+      "name": "location_type",
+      "type": "string",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The location type."
+      }
+    },
+    {
+      "name": "survey_type",
+      "type": "string",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The survey type."
+      }
+    },
+    {
+      "name": "year",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The survey year."
+      }
+    },
+    {
+      "name": "age_start",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The minimum age of the survey participants."
+      }
+    },
+    {
+      "name": "age_end",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The maximum age of the survey participants."
+      }
+    },
+    {
+      "name": "hk_examined",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The number of individuals tested for hookworm disease."
+      }
+    },
+    {
+      "name": "hk_positive",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The number of hookworm disease positive cases, amongst the tested individuals."
+      }
+    },
+    {
+      "name": "hk_perc_highinfection",
+      "type": "double",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "In relation to hookworm disease, the percentage of those tested, or the percentage of positive cases, exhibiting heavy intensity infection.  At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "hk_perc_moderateinfection",
+      "type": "double",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "In relation to hookworm disease, the percentage of those tested, or the percentage of positive cases, exhibiting moderate intensity infection.  At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "asc_examined",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The number of individuals tested for ascariasis."
+      }
+    },
+    {
+      "name": "asc_positive",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The number of ascariasis positive cases, amongst the tested individuals."
+      }
+    },
+    {
+      "name": "asc_perc_highinfection",
+      "type": "double",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "In relation to ascariasis, the percentage of those tested, or the percentage of positive cases, exhibiting heavy intensity infection.  At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "asc_perc_moderateinfection",
+      "type": "double",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "In relation to ascariasis, the percentage of those tested, or the percentage of positive cases, exhibiting moderate intensity infection.  At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "tt_examined",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The number of individuals tested for trichuriasis."
+      }
+    },
+    {
+      "name": "tt_positive",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The number of trichuriasis positive cases, amongst the tested individuals."
+      }
+    },
+    {
+      "name": "tt_perc_highinfection",
+      "type": "double",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "In relation to trichuriasis, the percentage of those tested, or the percentage of positive cases, exhibiting heavy intensity infection.  At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "tt_perc_moderateinfection",
+      "type": "double",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "In relation to trichuriasis, the percentage of those tested, or the percentage of positive cases, exhibiting moderate intensity infection.  At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "quality",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "sn",
+      "type": "integer",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "At present, the correct definition of this variable is unclear."
+      }
+    },
+    {
+      "name": "geometry",
+      "type": "map",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Projected coordinate point.  EPSG 3857"
+      }
+    },
+    {
+      "name": "shortest",
+      "type": "double",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Geographically, the distance between this point and its nearest point, in metres."
+      }
+    },
+    {
+      "name": "id",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The identification code of this observation."
+      }
+    },
+    {
+      "name": "src",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "For network analysis.  The source identification code, i.e., the identification - id - of this observation."
+      }
+    },
+    {
+      "name": "dst",
+      "type": "integer",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "For network analysis.  The destination identification code.  If the nearest point is beyond a specified limit, then the destination code is the same as the source code (a special source code synonym)."
+      }
+    },
+    {
+      "name": "self",
+      "type": "boolean",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "For network analysis.  Is the destination code the same as the source code (a special source code synonym)."
+      }
+    }
+
+  ]
+}
