@@ -1,0 +1,8 @@
+pandas
+numpy
+jupyterlab
+matplotlib
+geopandas
+networkx
+graphframes
+findspark
