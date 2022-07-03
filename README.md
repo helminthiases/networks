@@ -26,7 +26,7 @@ project scope, is in relation to site identification codes, i.e.,
   > Point B: (*longitude* 33.872115, *latitude* -2.0317217)
 
 
-&nbsp; &nbsp; &nbsp; &nbsp; can have different site identification codes.
+&nbsp; &nbsp; &nbsp; &nbsp; generally have different site identification codes.
 
 * Many observations do not have a site identification code.
 
