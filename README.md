@@ -60,12 +60,12 @@ The graphs.ipynb notebook: <br>
   at  [``graphframes``](https://spark-packages.org/package/graphframes/graphframes)
 
 * Add ``graphframes-0.8.2-spark3.2-s_2.12.jar`` to ``spark/jars/``, i.e., to the directory of 
-  de-archived [spark files](https://www.apache.org/dyn/closer.lua/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz)
+  de-archived [spark files](https://www.apache.org/dyn/closer.lua/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz).
 
-* In relation to the python conda environment, whilst ``graphframes`` maintenance is inconsistent manually upgrade ``graphframes`` within a conda environment
-  * Unzip `0.8.2-spark3.2-s_2.12.zip` outwith the conda environment area 
-  * Transfer ``graphframes-0.8.2/python/graphframes`` &rarr; ``lib/site-packages/graphframes``
-  * Ascertain that all members of directories  ``graphframes`` & ``graphframes-0.8.2.dist-info``, in ``lib/site-packages``, point/refer to ``0.8.2`` 
+* In relation to a python conda environment, whilst ``graphframes`` maintenance is inconsistent manually upgrade ``graphframes`` within a conda environment
+  * Unzip `0.8.2-spark3.2-s_2.12.zip` outwith a conda environment's directory. 
+  * Transfer ``graphframes-0.8.2/python/graphframes`` &rarr; ``lib/site-packages/graphframes``; the latter being a sub-directory of the conda environment's directory.
+  * Ascertain that all members of the directories  ``graphframes`` & ``graphframes-0.8.2.dist-info``, in ``lib/site-packages``, point/refer to ``0.8.2``.
 
 <br>
 <br>
