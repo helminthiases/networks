@@ -55,14 +55,16 @@ The graphs.ipynb notebook: <br>
 
 #### Apache Spark GraphFrames/GraphX
 
-* [``graphframes``](https://spark-packages.org/package/graphframes/graphframes)
+* Unload [`graphframes-0.8.2-spark3.2-s_2.12.jar`](https://repos.spark-packages.org/graphframes/graphframes/0.8.2-spark3.2-s_2.12/graphframes-0.8.2-spark3.2-s_2.12.jar) 
+  & [`0.8.2-spark3.2-s_2.12.zip`](https://github.com/graphframes/graphframes/archive/1cd7abb0f424fd76d76ea07438e6486f44fbb440.zip) 
+  at  [``graphframes``](https://spark-packages.org/package/graphframes/graphframes)
 
-* Add ``graphframes-0.8.2-spark3.2-s_2.12`` to ``spark/jars/``
-  * the jar is [graphframes-0.8.2-spark3.2-s_2.12.jar](https://repos.spark-packages.org/graphframes/graphframes/0.8.2-spark3.2-s_2.12/graphframes-0.8.2-spark3.2-s_2.12.jar)
+* Add ``graphframes-0.8.2-spark3.2-s_2.12.jar`` to ``spark/jars/``, i.e., to the directory of 
+  de-archived [spark files](https://www.apache.org/dyn/closer.lua/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz)
 
-* Manually upgrade ``graphframes`` within a conda environment
-  * Unload [0.8.2-spark3.2-s_2.12](https://github.com/graphframes/graphframes/archive/1cd7abb0f424fd76d76ea07438e6486f44fbb440.zip)
-  * Unzip `0.8.2-spark3.2-s_2.12`, than transfer ``graphframes-0.8.2/python/graphframes`` &rarr; ``lib/site-packages/graphframes``
+* In relation to the python conda environment, whilst ``graphframes`` maintenance is inconsistent manually upgrade ``graphframes`` within a conda environment
+  * Unzip `0.8.2-spark3.2-s_2.12.zip` outwith the conda environment area 
+  * Transfer ``graphframes-0.8.2/python/graphframes`` &rarr; ``lib/site-packages/graphframes``
   * Ascertain that all members of directories  ``graphframes`` & ``graphframes-0.8.2.dist-info``, in ``lib/site-packages``, point/refer to ``0.8.2`` 
 
 <br>
