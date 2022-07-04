@@ -51,6 +51,8 @@ networks, is an option.
 The graphs.ipynb notebook: <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helminthiases/networks/blob/develop/notebooks/graphs.ipynb)
 
+The approach described in this notebook is the approach implemented in [infections](https://www.github.com/helminthiases/infections)
+
 <br>
 
 #### Apache Spark GraphFrames/GraphX
