@@ -1,11 +1,5 @@
 <br>
 
-## Geographic Co&ouml;rdinates
-### Equivalent, or merely neighbouring?
-
-
-<br>
-
 * [Network Engines](#network-engines)
   * [NetworkX](#networkx)
   * [Apache Spark GraphFrames/GraphX](#apache-spark-graphframesgraphx)
@@ -13,6 +7,10 @@
 * [Development Notes](#development-notes)
 
 <br>
+
+## Geographic Co&ouml;rdinates
+### Equivalent, or merely neighbouring?
+
 <br>
 
 The soil transmitted helminth project relies on the ESPEN data sets.  A key set of ESPEN data sets issues, raised within the 
