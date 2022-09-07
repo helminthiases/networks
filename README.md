@@ -45,10 +45,7 @@ networks, is an option.
 
 #### PYTHON NetworkX
 
-> The graphs.ipynb notebook: <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helminthiases/networks/blob/develop/notebooks/graphs.ipynb)
-
-The approach described in this notebook is the approach followed in [infections](https://www.github.com/helminthiases/infections).
-
+The [graphs.ipynb notebook](https://colab.research.google.com/github/helminthiases/networks/blob/develop/notebooks/graphs.ipynb) illustrates the NetworkX co&ouml;rdinates mapping approach; it is the project's approach - ref. [infections](https://www.github.com/helminthiases/infections).
 
 
 #### APACHE SPARK GraphFrames/GraphX
