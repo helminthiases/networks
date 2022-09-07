@@ -48,7 +48,7 @@ networks, is an option.
 The [graphs.ipynb notebook](https://colab.research.google.com/github/helminthiases/networks/blob/develop/notebooks/graphs.ipynb) illustrates the NetworkX co&ouml;rdinates mapping approach; it is the project's approach - ref. [infections](https://www.github.com/helminthiases/infections).
 
 
-#### APACHE SPARK GraphFrames/GraphX
+#### Apache Spark GraphFrames/GraphX
 
 * Unload [`graphframes-0.8.2-spark3.2-s_2.12.jar`](https://repos.spark-packages.org/graphframes/graphframes/0.8.2-spark3.2-s_2.12/graphframes-0.8.2-spark3.2-s_2.12.jar) 
   & [`0.8.2-spark3.2-s_2.12.zip`](https://github.com/graphframes/graphframes/archive/1cd7abb0f424fd76d76ea07438e6486f44fbb440.zip) 
