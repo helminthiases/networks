@@ -9,7 +9,7 @@
 <br>
 
 ## Geographic Co&ouml;rdinates
-### Equivalent, or merely neighbouring?
+**Equivalent, or merely neighbouring?**
 
 <br>
 
@@ -32,7 +32,6 @@ The aim herein is to explore methods for determining which co&ouml;rdinate point
 subsequently generate identification codes.
 
 <br>
-<br>
 
 ### Network Engines
 
@@ -42,7 +41,6 @@ is [well-supported](https://networkx.org/documentation/stable/developer/about_us
 **(c)** [accelerated graph analytics](https://www.nvidia.com/en-us/glossary/data-science/networkx/) via GPU, for very large
 networks, is an option.
 
-<br>
 
 #### NetworkX
 
@@ -51,7 +49,6 @@ The graphs.ipynb notebook: <br>
 
 The approach described in this notebook is the approach followed in [infections](https://www.github.com/helminthiases/infections).
 
-<br>
 
 #### Apache Spark GraphFrames/GraphX
 
@@ -67,7 +64,6 @@ The approach described in this notebook is the approach followed in [infections]
   * Transfer ``graphframes-0.8.2/python/graphframes`` &rarr; ``lib/site-packages/graphframes``; the latter being a sub-directory of the conda environment's directory.
   * Ascertain that all members of the directories  ``graphframes`` & ``graphframes-0.8.2.dist-info``, in ``lib/site-packages``, point/refer to ``0.8.2``.
 
-<br>
 <br>
 
 ### Development Notes
