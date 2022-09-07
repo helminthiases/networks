@@ -43,7 +43,7 @@ networks, is an option.
 
 
 
-#### PYTHON NetworkX
+#### NetworkX
 
 The [graphs.ipynb notebook](https://colab.research.google.com/github/helminthiases/networks/blob/develop/notebooks/graphs.ipynb) illustrates the NetworkX co&ouml;rdinates mapping approach; it is the project's approach - ref. [infections](https://www.github.com/helminthiases/infections).
 
