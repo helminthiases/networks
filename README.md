@@ -42,7 +42,7 @@ is [well-supported](https://networkx.org/documentation/stable/developer/about_us
 networks, is an option.
 
 
-#### NetworkX
+#### PYTHON NetworkX
 
 The graphs.ipynb notebook: <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helminthiases/networks/blob/develop/notebooks/graphs.ipynb)
@@ -50,7 +50,7 @@ The graphs.ipynb notebook: <br>
 The approach described in this notebook is the approach followed in [infections](https://www.github.com/helminthiases/infections).
 
 
-#### Apache Spark GraphFrames/GraphX
+#### APACHE SPARK GraphFrames/GraphX
 
 * Unload [`graphframes-0.8.2-spark3.2-s_2.12.jar`](https://repos.spark-packages.org/graphframes/graphframes/0.8.2-spark3.2-s_2.12/graphframes-0.8.2-spark3.2-s_2.12.jar) 
   & [`0.8.2-spark3.2-s_2.12.zip`](https://github.com/graphframes/graphframes/archive/1cd7abb0f424fd76d76ea07438e6486f44fbb440.zip) 
