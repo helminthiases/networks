@@ -41,7 +41,7 @@ is [well-supported](https://networkx.org/documentation/stable/developer/about_us
 **(c)** [accelerated graph analytics](https://www.nvidia.com/en-us/glossary/data-science/networkx/) via GPU, for very large
 networks, is an option.
 
-<br>
+
 
 #### PYTHON NetworkX
 
@@ -50,7 +50,7 @@ The graphs.ipynb notebook: <br>
 
 The approach described in this notebook is the approach followed in [infections](https://www.github.com/helminthiases/infections).
 
-<br>
+
 
 #### APACHE SPARK GraphFrames/GraphX
 
